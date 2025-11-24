@@ -1,0 +1,302 @@
+[
+  {
+    "nome": "John Wesley",
+    "descricao": "Teólogo e evangelista britânico, co-fundador do movimento Metodista, fundamental para o Primeiro Grande Despertamento na Grã-Bretanha e América.",
+    "data_criacao": "1703",
+    "link": "https://pt.wikipedia.org/wiki/John_Wesley",
+    "tags": [
+      "Metodismo",
+      "Primeiro Grande Despertamento",
+      "Evangelismo",
+      "Século XVIII"
+    ]
+  },
+  {
+    "nome": "George Whitefield",
+    "descricao": "Pregador anglicano itinerante, conhecido por seu estilo dramático e por pregar para grandes multidões ao ar livre durante o Primeiro Grande Despertamento.",
+    "data_criacao": "1714",
+    "link": "https://pt.wikipedia.org/wiki/George_Whitefield",
+    "tags": [
+      "Primeiro Grande Despertamento",
+      "Pregador Itinerante",
+      "Calvinismo",
+      "Evangelismo de Massas"
+    ]
+  },
+  {
+    "nome": "Charles Finney",
+    "descricao": "Advogado que se tornou evangelista; figura central no Segundo Grande Despertamento, promovendo as 'Novas Medidas' para a conversão.",
+    "data_criacao": "1792",
+    "link": "https://pt.wikipedia.org/wiki/Charles_Grandison_Finney",
+    "tags": [
+      "Segundo Grande Despertamento",
+      "Perfeccionismo",
+      "Teologia",
+      "Avivamento Moderno"
+    ]
+  },
+  {
+    "nome": "Dwight L. Moody",
+    "descricao": "Evangelista de massas do final do século XIX, que fundou escolas e institutos bíblicos; suas campanhas alcançaram milhões na América e Europa.",
+    "data_criacao": "1837",
+    "link": "https://pt.wikipedia.org/wiki/Dwight_Lyman_Moody",
+    "tags": [
+      "Evangelismo de Massas",
+      "Urbanização",
+      "Discipulado",
+      "Século XIX"
+    ]
+  },
+  {
+    "nome": "William Seymour",
+    "descricao": "Líder afro-americano do Avivamento da Rua Azusa em 1906, amplamente creditado como o catalisador do movimento Pentecostal moderno global.",
+    "data_criacao": "1870",
+    "link": "https://pt.wikipedia.org/wiki/William_J._Seymour",
+    "tags": [
+      "Pentecostalismo",
+      "Avivamento da Rua Azusa",
+      "Movimento Carismático",
+      "Missões Globais"
+    ]
+  },
+  {
+    "nome": "Aimee Semple McPherson",
+    "descricao": "Pioneira do rádio evangelístico e fundadora da Igreja Internacional do Evangelho Quadrangular, conhecida por sua apresentação midiática do evangelho.",
+    "data_criacao": "1890",
+    "link": "https://pt.wikipedia.org/wiki/Aimee_Semple_McPherson",
+    "tags": [
+      "Pentecostalismo",
+      "Televangelismo",
+      "Comunicação",
+      "Quadrangular"
+    ]
+  },
+  {
+    "nome": "Evan Roberts",
+    "descricao": "Jovem mineiro que foi a figura central do Avivamento Galês (1904-1905), um movimento de oração e arrependimento que transformou o País de Gales.",
+    "data_criacao": "1878",
+    "link": "https://pt.wikipedia.org/wiki/Evan_Roberts",
+    "tags": [
+      "Avivamento Galês",
+      "Oração Intercessória",
+      "Movimento de Santidade",
+      "Século XX"
+    ]
+  },
+  {
+    "nome": "John G. Lake",
+    "descricao": "Missionário de cura e evangelista que estabeleceu ministérios de avivamento e cura divina na África do Sul, e mais tarde nos EUA (Ministérios de Cura).",
+    "data_criacao": "1870",
+    "link": "https://pt.wikipedia.org/wiki/John_G._Lake",
+    "tags": [
+      "Cura Divina",
+      "Missões Africanas",
+      "Pentecostalismo",
+      "Discernimento Espiritual"
+    ]
+  },
+  {
+    "nome": "Kathryn Kuhlman",
+    "descricao": "Evangelista de cura carismática influente; seus serviços públicos de cura nas décadas de 60 e 70 atraíam audiências em massa e eram transmitidos pela televisão.",
+    "data_criacao": "1907",
+    "link": "https://pt.wikipedia.org/wiki/Kathryn_Kuhlman",
+    "tags": [
+      "Cura Divina",
+      "Movimento Carismático",
+      "Televangelismo",
+      "Pós-Guerra"
+    ]
+  },
+  {
+    "nome": "Billy Graham",
+    "descricao": "Provavelmente o evangelista mais famoso do século XX, suas 'Cruzadas' alcançaram centenas de milhões de pessoas globalmente, unindo protestantes de várias denominações.",
+    "data_criacao": "1918",
+    "link": "https://pt.wikipedia.org/wiki/Billy_Graham",
+    "tags": [
+      "Evangelismo de Massas",
+      "Cruzadas Globais",
+      "Conservadorismo",
+      "Pós-Guerra"
+    ]
+  },
+  {
+    "nome": "Oral Roberts",
+    "descricao": "Pioneiro televangelista e promotor da cura divina; fundou a Universidade Oral Roberts e influenciou a integração de fé e finanças no ministério.",
+    "data_criacao": "1918",
+    "link": "https://pt.wikipedia.org/wiki/Oral_Roberts",
+    "tags": [
+      "Televangelismo",
+      "Cura Divina",
+      "Movimento Carismático",
+      "Educação Cristã"
+    ]
+  },
+  {
+    "nome": "Hudson Taylor",
+    "descricao": "Missionário britânico na China e fundador da Missão para o Interior da China (CIM, agora OMF), conhecida por seu compromisso com a inculturação.",
+    "data_criacao": "1832",
+    "link": "https://pt.wikipedia.org/wiki/Hudson_Taylor",
+    "tags": [
+      "Missões",
+      "China",
+      "Fé Missionária",
+      "Pioneirismo"
+    ]
+  },
+  {
+    "nome": "Reinhard Bonnke",
+    "descricao": "Evangelista alemão focado na África, conhecido por suas mega-cruzadas que reuniram milhões e resultaram em conversões em massa (Christ for All Nations - CfaN).",
+    "data_criacao": "1940",
+    "link": "https://pt.wikipedia.org/wiki/Reinhard_Bonnke",
+    "tags": [
+      "Evangelismo Africano",
+      "Milagres e Sinais",
+      "Mega-Cruzadas",
+      "Carismático"
+    ]
+  },
+  {
+    "nome": "Heidi Baker",
+    "descricao": "Missionária moderna em Moçambique, conhecida por seu trabalho radical com os pobres e pela fundação da Iris Global, focada em sinais, maravilhas e amor sacrificial.",
+    "data_criacao": "1957",
+    "link": "https://pt.wikipedia.org/wiki/Heidi_Baker",
+    "tags": [
+      "Missões",
+      "África",
+      "Pobres",
+      "Ministério Profético"
+    ]
+  },
+  {
+    "nome": "Rick Warren",
+    "descricao": "Pastor e autor de 'Uma Vida com Propósitos'; impulsionou o movimento de igrejas dirigidas por propósitos, influenciando drasticamente a metodologia ministerial global.",
+    "data_criacao": "1954",
+    "link": "https://pt.wikipedia.org/wiki/Rick_Warren",
+    "tags": [
+      "Liderança Eclesiástica",
+      "Crescimento de Igreja",
+      "Estratégia Ministerial",
+      "Contemporâneo"
+    ]
+  },
+  {
+    "nome": "Bill Johnson",
+    "descricao": "Pastor sênior da Bethel Church (Redding, EUA); uma figura chave na Nova Reforma Apostólica e no foco em avivamento contínuo, sinais e profecia.",
+    "data_criacao": "1951",
+    "link": "https://pt.wikipedia.org/wiki/Bill_Johnson_(pastor)",
+    "tags": [
+      "Movimento Profético",
+      "Avivamento",
+      "Nova Reforma Apostólica",
+      "Carismático"
+    ]
+  },
+  {
+    "nome": "Watchman Nee",
+    "descricao": "Líder de igreja na China e autor influente, conhecido por sua profunda teologia sobre a vida cristã e o governo da igreja local. Sofreu perseguição comunista.",
+    "data_criacao": "1903",
+    "link": "https://pt.wikipedia.org/wiki/Watchman_Nee",
+    "tags": [
+      "Liderança Eclesiástica",
+      "China",
+      "Autor",
+      "Discipulado"
+    ]
+  },
+  {
+    "nome": "Maria Woodworth-Etter",
+    "descricao": "Evangelista pioneira do Movimento de Santidade e Pentecostalismo, conhecida por grandes reuniões de avivamento e manifestações físicas de poder espiritual.",
+    "data_criacao": "1844",
+    "link": "https://pt.wikipedia.org/wiki/Maria_Woodworth-Etter",
+    "tags": [
+      "Movimento de Santidade",
+      "Pentecostalismo",
+      "Cura",
+      "Profecia"
+    ]
+  },
+  {
+    "nome": "Jonathan Edwards",
+    "descricao": "Teólogo puritano e líder-chave do Primeiro Grande Despertamento na América, famoso pelo sermão 'Pecadores nas Mãos de um Deus Irado'.",
+    "data_criacao": "1703",
+    "link": "https://pt.wikipedia.org/wiki/Jonathan_Edwards_(te%C3%B3logo)",
+    "tags": [
+      "Puritanismo",
+      "Primeiro Grande Despertamento",
+      "Teologia",
+      "Século XVIII"
+    ]
+  },
+  {
+    "nome": "David Livingstone",
+    "descricao": "Explorador e missionário escocês na África (século XIX), cuja exploração e ativismo contra a escravidão abriram o continente para a missão cristã e o comércio.",
+    "data_criacao": "1813",
+    "link": "https://pt.wikipedia.org/wiki/David_Livingstone",
+    "tags": [
+      "Missões Africanas",
+      "Exploração",
+      "Abolicionismo",
+      "Século XIX"
+    ]
+  },
+  {
+    "nome": "Pandita Ramabai",
+    "descricao": "Reformadora social, estudiosa e avivalista indiana, fundou a Mukti Mission para ajudar viúvas e órfãs, experimentando um avivamento poderoso em sua missão.",
+    "data_criacao": "1858",
+    "link": "https://pt.wikipedia.org/wiki/Pandita_Ramabai",
+    "tags": [
+      "Missões Indianas",
+      "Reforma Social",
+      "Avivamento",
+      "Liderança Feminina"
+    ]
+  },
+  {
+    "nome": "Samuel Ajayi Crowther",
+    "descricao": "Linguista e o primeiro bispo anglicano africano na Nigéria, simbolizando o crescimento do Cristianismo autônomo e nativo no continente africano.",
+    "data_criacao": "1809",
+    "link": "https://pt.wikipedia.org/wiki/Samuel_Ajayi_Crowther",
+    "tags": [
+      "Missões Africanas",
+      "Liderança Nativa",
+      "Anglicanismo",
+      "Nigéria"
+    ]
+  },
+  {
+    "nome": "Cindy Jacobs",
+    "descricao": "Proeminente profetisa e líder intercessora moderna; uma voz influente no movimento profético global, com foco na oração estratégica e transformação social.",
+    "data_criacao": "1951",
+    "link": "https://pt.wikipedia.org/wiki/Cindy_Jacobs",
+    "tags": [
+      "Profecia",
+      "Guerra Espiritual",
+      "Intercessão",
+      "Carismático"
+    ]
+  },
+  {
+    "nome": "T.L. Osborn",
+    "descricao": "Evangelista de cura global pós-Segunda Guerra Mundial, famoso por suas extensas campanhas em países em desenvolvimento, com foco na pregação de Cristo e milagres.",
+    "data_criacao": "1923",
+    "link": "https://pt.wikipedia.org/wiki/T._L._Osborn",
+    "tags": [
+      "Evangelismo Global",
+      "Cura Divina",
+      "Missões",
+      "Milagres"
+    ]
+  },
+  {
+    "nome": "C. Peter Wagner",
+    "descricao": "Professor de missões e teólogo; influente no desenvolvimento da Nova Reforma Apostólica (NAR) e conceitos de guerra espiritual estratégica e apóstolos contemporâneos.",
+    "data_criacao": "1930",
+    "link": "https://pt.wikipedia.org/wiki/C._Peter_Wagner",
+    "tags": [
+      "Nova Reforma Apostólica",
+      "Missiologia",
+      "Guerra Espiritual",
+      "Liderança Apostólica"
+    ]
+  }
+]

@@ -1,0 +1,295 @@
+/* --- RESET & GLOBAL STYLES --- */
+:root {
+    --deep-blue: #081424;
+    --bright-yellow: #E9FF2E;
+    --gold: #E2C275;
+    --soft-white: #f0f0f0;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+
+    --font-title: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--deep-blue);
+    color: var(--soft-white);
+    line-height: 1.6;
+}
+
+/* --- HERO SECTION --- */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 60vh;
+    padding: 2rem;
+    background-image: linear-gradient(rgba(8, 20, 36, 0.85), rgba(8, 20, 36, 1)), url('https://images.unsplash.com/photo-1508247967583-7d982ea01546?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-title {
+    font-family: var(--font-title);
+    font-size: 4rem;
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    color: var(--soft-white);
+    opacity: 0.9;
+}
+
+/* --- SEARCH CONTAINER --- */
+.search-container {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 1px solid var(--gold);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+#input-busca {
+    flex-grow: 1;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background: transparent;
+    color: var(--soft-white);
+}
+
+#input-busca::placeholder {
+    color: rgba(240, 240, 240, 0.6);
+}
+
+#input-busca:focus {
+    outline: none;
+}
+
+#botao-busca {
+    border: none;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--gold);
+    color: var(--deep-blue);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#botao-busca:hover {
+    background-color: var(--bright-yellow);
+}
+
+/* --- MAIN CONTENT & CARDS --- */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(226, 194, 117, 0.3);
+    padding-bottom: 1rem;
+}
+
+.main-header h2 {
+    font-family: var(--font-title);
+    font-size: 2.5rem;
+    color: var(--gold);
+}
+
+#botao-explorar {
+    background-color: transparent;
+    color: var(--gold);
+    border: 1px solid var(--gold);
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+#botao-explorar:hover {
+    background-color: var(--gold);
+    color: var(--deep-blue);
+}
+
+/* --- TAG FILTER --- */
+.tag-filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 2.5rem;
+}
+
+.tag-filter-label {
+    font-weight: 500;
+    color: var(--soft-white);
+    opacity: 0.8;
+    margin-right: 0.5rem;
+}
+
+.tag-button {
+    background-color: transparent;
+    border: 1px solid rgba(226, 194, 117, 0.5);
+    color: rgba(226, 194, 117, 0.9);
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+}
+
+.tag-button:hover {
+    background-color: rgba(226, 194, 117, 0.2);
+    border-color: var(--gold);
+    color: var(--gold);
+}
+
+.tag-button.active {
+    background-color: var(--gold);
+    color: var(--deep-blue);
+    font-weight: bold;
+    border-color: var(--gold);
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.placeholder-text {
+    color: rgba(240, 240, 240, 0.7);
+    font-size: 1.1rem;
+    grid-column: 1 / -1; /* Ocupa todas as colunas */
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.card {
+    background-color: #102a43;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 15px var(--shadow-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    border-color: var(--gold);
+}
+
+.card h2 {
+    font-family: var(--font-title);
+    color: var(--gold);
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.card .card-year {
+    font-size: 0.9rem;
+    color: var(--soft-white);
+    opacity: 0.7;
+    margin-bottom: 1rem;
+}
+
+.card .card-description {
+    flex-grow: 1;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+}
+
+.card a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--gold);
+    color: var(--deep-blue);
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: auto; /* Alinha o botão na base do card */
+}
+
+.card a:hover {
+    background-color: var(--bright-yellow);
+}
+
+/* --- FOOTER --- */
+.footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: #040c16;
+    border-top: 1px solid rgba(226, 194, 117, 0.2);
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.footer-links a {
+    color: var(--gold);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--bright-yellow);
+}
+
+/* --- RESPONSIVE DESIGN --- */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+    .main-header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    main {
+        padding: 2rem 1rem;
+    }
+}
